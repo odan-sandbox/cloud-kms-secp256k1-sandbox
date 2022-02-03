@@ -29,5 +29,9 @@
     "test:lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "test:format": "prettier --ignore-path .gitignore . --check",
     "format": "prettier --ignore-path .gitignore . --write"
+  },
+  "dependencies": {
+    "@google-cloud/kms": "^2.10.0",
+    "fast-crc32c": "^2.0.0"
   }
 }
